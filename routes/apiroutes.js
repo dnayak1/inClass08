@@ -23,6 +23,12 @@ exports.getUsers = function(req,res){
         "message":message,
         "result":results
           });
+    }else{
+      message ="no more records";
+      res.send({
+        "code":202,
+        "message":message
+      });
     }
   }
   });

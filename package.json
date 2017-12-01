@@ -1,0 +1,16 @@
+{
+  "name": "inclass08",
+  "version": "1.0.0",
+  "description": "in class 08",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhiraj Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.14.1",
+    "body-parser": "^1.18.1",
+    "express": "^4.16.2"
+  }
+}
